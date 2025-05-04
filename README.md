@@ -1,3 +1,11 @@
+<!--
+Basado en el esquema (Schema) del Json de CV:
+https://jsonresume.org/schema 
+
+Basado en el estructura y diseño de:
+https://github.com/BartoszJarocki/cv
+-->
+
 # Astro Starter Kit: Basics
 
 ```sh

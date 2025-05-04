@@ -1,0 +1,27 @@
+Para arracar web: D:\04_proyectos\01_portafolio-minimalista> npm run dev
+
+https://outlook.live.com/mail/0/deeplink/compose?to=ericjosejapa@hotmail.com&subject=Hola Eric Jara&body=Hola Eric Jara, me gustaría hablar contigo sobre...
+
+
+
+
+
+
+
+{
+                "network": "Correo",
+                "username": "Eric Jara",
+                "url": "https://wa.me/51910600043"
+            },
+
+
+
+
+
+https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=eric.jose.jara.palacios961109@gmail.com
+
+
+
+
+
+https://outlook.live.com/owa/?path=/mail/action/compose&to=ericjosejapa@hotmail.com

@@ -1,0 +1,600 @@
+{
+    "basics": {
+        "name": "Eric José Jara Palacios",
+        "label": "Analista en Cloud de Azure y Soporte Técnico de Melissa y Clarissa",
+        "image": "/me.webp",
+        "email": "ericjosejapa@hotmail.com",
+        "phone": "+51 910600043",
+        "url": "https://softsistema.com/cv.ericjara",
+        "summary": "Profesional entusiasta de la tecnología con conocimientos en Microsoft Azure, incluyendo gestión de recursos, redes virtuales, almacenamiento y seguridad en la nube. Familiarizado con servicios como Azure Virtual Machines, Azure Functions, Azure SQL Database y Azure Active Directory. Capacidad para trabajar con infraestructura como código (IaC) utilizando herramientas como ARM Templates y Bicep. Habilidades para el análisis de problemas y adaptación a entornos dinámicos. Orientado al aprendizaje continuo y listo para aportar al desarrollo de soluciones basadas en Azure dentro de empresas del sector tecnológico y de servicios en Perú.",
+        "location": {
+            "address": "",
+            "postalCode": "15125",
+            "city": "Lima",
+            "countryCode": "PE",
+            "region": "Perú"
+        },
+        "profiles": [
+            {
+                "network": "Correo",
+                "username": "Eric Jara",
+                "url": "https://outlook.live.com/owa/?path=/mail/action/compose&to=ericjosejapa@hotmail.com"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Eric Jara",
+                "url": "https://linkedin.com/in/eric-josé-jara-palacios-40b005b3"
+            },
+            {
+                "network": "GitHub",
+                "username": "Eric Jara",
+                "url": "https://github.com/EricJara?tab=repositories"
+            },
+            {
+                "network":"WhatsApp",
+                "username":"Eric Jara",
+                "url":"https://wa.me/51910600043"
+            },
+            {
+                "network": "Facebook",
+                "username": "Eric Jara",
+                "url": "https://facebook.com/ericjose.jarapalacios"
+            },
+            {
+                "network": "Instagram",
+                "username": "Eric Jara",
+                "url": "https://instagram.com/eric.jara_96"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Software y Sistemas del Perú S.A.C.",
+            "position": "Soporte Técnico de Melissa y Clarissa",
+            "url": "https://sysdelperu.com/",
+            "startDate": "2019-01-01",
+            "endDate": null,
+            "summary": "Analista de los programas Melissa y Clarissa, donde realizó asesoramiento, demostración, capacitación, configuración y procedimiento para la solución de errores del software, además, brindó apoyo a los clientes a resolver sus casos mediante el armado y diseño de sus reportes de gastos e ingresos. Ofreció un servicio ágil y de calidad para optimizar los procesos.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "PRONABEC & Consorcio Central CTK",
+            "position": "Operador Informático - Programa Beca 18",
+            "url": "https://www.ctk.pe/",
+            "startDate": "2024-11-17",
+            "endDate": "2024-12-01",
+            "summary": "Desarrollé funciones como operador informático de contingencia en el proyecto de evaluación para postulantes al programa Beca 18, encargado de asegurar el correcto funcionamiento de los equipos informáticos durante todo el proceso. Supervisé la operatividad de los sistemas, gestioné el control de asistencia del personal operativo, administrativo y de mi equipo, y validé la identidad de los postulantes, asignándoles los espacios correspondientes para sus evaluaciones. Coordiné la elaboración del inventario de los instrumentos de evaluación utilizados y aseguré la correcta carga de los datos en el sistema informático. Adicionalmente, apoyé en la gestión de las actividades del personal y en la coordinación para asegurar el cumplimiento efectivo de todas las etapas del proyecto.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Instituto Nacional de Estadística e Informática - INEI",
+            "position": "Operador Informático - Proyecto EDNOM",
+            "url": "https://www.gob.pe/inei",
+            "startDate": "2019-05-31",
+            "endDate": "2019-07-21",
+            "summary": "Participé como operador informático de contingencia en el proyecto de evaluación de docentes para el Nombramiento en la Escala Magisterial. Entre mis funciones, verifiqué el correcto funcionamiento de los equipos informáticos, controlé la asistencia del personal operativo y administrativo, y validé la identidad de los participantes, asignándoles sus respectivos ambientes de evaluación. Asimismo, elaboré el inventario de los instrumentos de evaluación utilizados y di conformidad a la carga de datos en el sistema informático.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Instituto Nacional de Estadística e Informática - INEI",
+            "position": "Operador Informático - Proyecto EDAA",
+            "url": "https://www.gob.pe/inei",
+            "startDate": "2018-05-24",
+            "endDate": "2018-07-15",
+            "summary": "Desempeñé como operador informático en el proyecto de evaluación para el Ascenso de Escala Magisterial. Mis responsabilidades incluyeron asegurar el funcionamiento óptimo de los equipos informáticos durante el desarrollo de la evaluación, gestionar el control de asistencia del personal técnico y administrativo, y validar la identidad de los postulantes, asignándolos adecuadamente a sus ambientes de evaluación. Además, realicé el inventario de los materiales e instrumentos evaluativos, y verifiqué la correcta carga y transmisión de datos al sistema informático.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Instituto Nacional de Estadística e Informática - INEI",
+            "position": "Jefe de Sección Urbano (San Juan Bautista) - Censo 2017",
+            "startDate": "2017-08-21",
+            "endDate": "2017-10-22",
+            "summary": "Ejercí el cargo de Jefe de Sección Urbano durante el Censo 2017 del INEI, en el cual asumí la responsabilidad de supervisar la ejecución del proceso censal en las zonas urbanas. Mi labor consistió en coordinar y dirigir al personal censal, asegurando que las entrevistas se realizaran conforme a los pasos establecidos. Supervisé las actividades logísticas del censo, y resolví situaciones imprevistas que surgieron durante el proceso de recolección. Finalmente, fui responsable de reportar asiduamente la ejecución de las actividades a las autoridades, asegurando que se concluyan en los plazos establecidos.",
+            "highlights": [
+                "Started the company"
+            ]
+        },
+        {
+            "name": "Instituto Nacional de Estadística e Informática - INEI",
+            "position": "Operador Informático - Proyecto EDNOM",
+            "startDate": "2017-07-18",
+            "endDate": "2017-09-24",
+            "summary": "Ocupé el cargo de operador informático en el proyecto de evaluación de docentes para el Nombramiento en la Escala Magisterial. Mi labor consistió en asegurar el correcto funcionamiento de los equipos informáticos, gestionar el registro de asistencia del personal operativo y administrativo, y validar la identidad de los participantes, asignándoles los espacios correspondientes para su evaluación. Asimismo, me encargué de realizar el inventario de los instrumentos de evaluación utilizados y garantizar la correcta carga y procesamiento de los datos en el sistema informático, velando por la precisión y fiabilidad de la información.",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Científica del Perú",
+            "url": "https://ucp.edu.pe/",
+            "area": "Ingeniería de Sistemas de Información",
+            "studyType": "Títulado",
+            "startDate": "2014-01-06",
+            "endDate": "2019-12-02",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        },
+        {
+            "institution": "Universidad Nacional de Ingeniería",
+            "url": "https://portal.uni.edu.pe/",
+            "area": "Ciencias en Ingeniería de Sistemas de Información",
+            "studyType": "Egresado en la Maestría",
+            "startDate": "2022-09-13",
+            "endDate": "2024-07-31",
+            "score": "4.0",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "addit": [
+        {
+            "name": "Microsoft Certified: Aspectos básicos de Azure",
+            "institution": "Microsoft",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://learn.microsoft.com/es-es/users/ericjosjarapalacios-6247/credentials/d65e5c018ee53236?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+            "ExpedDate":"2025-04-19",
+            "IdCredencial":"D65E5C018EE53236",
+            "keywords": [
+                "Cloud Computing",
+                "Microsoft Azure",
+                "Computación en la nube",
+                "Infraestructura"
+            ]
+        },
+        {
+            "name": "Curso Completo de Microsoft Azure Fundamentals AZ-900",
+            "institution": "BlockStellart - Udemy",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://www.udemy.com/certificate/UC-db71d0e1-e81f-481c-a143-7731816c8cd3/",
+            "ExpedDate":"2025-04-13",
+            "IdCredencial":"UC-db71d0e1-e81f-481c-a143-7731816c8cd3",
+            "keywords": [
+                "Cloud",
+                "Microsoft Azure",
+                "Computación en la nube",
+                "Infraestructura",
+                "Azure"
+            ]
+        },
+        {
+            "name": "Curso de Azure Fundamentals - 2025",
+            "institution": "Benjamin Diaz || Azure Certified Solutions Architect - Udemy",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://www.udemy.com/certificate/UC-1c9a3d43-802e-4171-8d20-1debc6a26262/",
+            "ExpedDate":"2025-02-21",
+            "IdCredencial":"UC-1c9a3d43-802e-4171-8d20-1debc6a26262",
+            "keywords": [
+                "Computación en la nube",
+                "Infraestructura",
+                "Azure",
+                "Fundamentos de Azure",
+                "Azure Fundamentals",
+                "Microsoft Azure Fundamentals"
+            ]
+        },
+        {
+            "name": "Curso de Power BI",
+            "institution": "Platzi",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://platzi.com/p/eric-jose-jara-palacios/curso/10200-powerbi/diploma/detalle/",
+            "ExpedDate":"2024-08-28",
+            "IdCredencial":"673b1ce8-829c-471c-ab6b-12f86256b127",
+            "keywords": [
+                "Power BI",
+                "Business Intelligence",
+                "Visualización de datos",
+                "Análisis de datos",
+                "Informes interactivos"
+            ]
+        },
+        {
+            "name": "Curso de Python",
+            "institution": "Platzi",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://platzi.com/p/eric-jose-jara-palacios/curso/10002-python/diploma/detalle/",
+            "ExpedDate":"2024-08-06",
+            "IdCredencial":"a2651520-a461-47f6-85d4-4b93e9146302",
+            "keywords": [
+                "Python",
+                "Programación",
+                "Desarrollo de software",
+                "Automatización",
+                "Análisis de datos"
+            ]
+        },
+        {
+            "name": "Curso de Infraestructure As Code (IAC) In Cloud: Terraform",
+            "institution": "Galaxy Training",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://www.appgalaxy.com.pe/certificados/#/",
+            "ExpedDate":"2024-05-18",
+            "IdCredencial":"24CZV322",
+            "keywords": [
+                "Terraform",
+                "Infraestructura como código",
+                "Automatización de infraestructura",
+                "Gestión de recursos en la nube",
+                "Provisionamiento de recursos"
+            ]
+        },
+        {
+            "name": "Curso de Introducción a la Terminal y Línea de Comandos",
+            "institution": "Platzi",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://platzi.com/p/eric-jose-jara-palacios/curso/2292-terminal/diploma/detalle/",
+            "ExpedDate":"2024-02-16",
+            "IdCredencial":"c5f75935-5f92-4bc6-be4f-cfbc6a6c8c7d",
+            "keywords": [
+                "Terminal",
+                "Línea de comandos",
+                "Sistemas operativos",
+                "Administración de sistemas",
+                "Bash",
+                "PowerShell"
+            ]
+        },
+        {
+            "name": "Curso de Scrum Foundation Professional Certificate SFPC",
+            "institution": "CertiProf",
+            "autor":"Eric José Jara Palacios",
+            "url": "https://unipe-my.sharepoint.com/personal/eric_jara_p_uni_pe/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Feric%5Fjara%5Fp%5Funi%5Fpe%2FDocuments%2FCertificados%2FCertificate%5Fscrum%2Epdf&parent=%2Fpersonal%2Feric%5Fjara%5Fp%5Funi%5Fpe%2FDocuments%2FCertificados&ga=1",
+            "ExpedDate":"2023-05-03",
+            "IdCredencial":"85327780",
+            "keywords": [
+                "Scrum",
+                "Agile",
+                "Gestión de proyectos",
+                "Metodologías ágiles",
+                "Certificación Scrum"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "HelpDesk",
+            "level": "Avanzado",
+            "keywords": [
+                "Soporte Técnico",
+                "Atención al Cliente",
+                "Resolución de Problemas",
+                "Gestión de Incidencias",
+                "Comunicación Efectiva",
+                "Trabajo en Equipo",
+                "Adaptabilidad",
+                "Conocimientos Técnicos"
+            ]
+        },
+        {
+            "name": "Azure",
+            "level": "Intermedio",
+            "keywords": [
+                "Microsoft Azure",
+                "Cloud Computing",
+                "Infraestructura como Servicio (IaaS)",
+                "Plataforma como Servicio (PaaS)",
+                "Gestión de Recursos",
+                "Redes Virtuales",
+                "Almacenamiento en la Nube",
+                "Seguridad en la Nube"
+            ]
+        },
+        {
+            "name": "Windows Server",
+            "level": "Intermedio",
+            "keywords": [
+                "Administración de Servidores",
+                "Configuración de Redes",
+                "Gestión de Usuarios",
+                "Seguridad de Servidores",
+                "Virtualización"
+            ]
+        },
+        {
+            "name": "Bash",
+            "level": "Intermedio",
+            "keywords": [
+                "Scripting",
+                "Automatización de Tareas",
+                "Administración de Sistemas",
+                "Gestión de Archivos",
+                "Comandos de Terminal"
+            ]
+        },
+        {
+            "name": "PowerShell",
+            "level": "Intermedio",
+            "keywords": [
+                "Scripting",
+                "Automatización de Tareas",
+                "Administración de Sistemas",
+                "Gestión de Archivos",
+                "Comandos de Terminal"
+            ]
+        },
+        {
+            "name": "ARM Templates",
+            "level": "Intermedio",
+            "keywords": [
+                "Infraestructura como Código (IaC)",
+                "Plantillas ARM",
+                "Despliegue Automatizado",
+                "Configuración de Recursos",
+                "Gestión de Plantillas"
+            ]
+        },
+        {
+            "name": "Terraform",
+            "level": "Intermedio",
+            "keywords": [
+                "Infraestructura como Código (IaC)",
+                "Automatización de Infraestructura",
+                "Gestión de Recursos",
+                "Provisionamiento de Recursos",
+                "Configuración de Infraestructura",
+                "Despliegue de Aplicaciones"
+            ]
+        },
+        {
+            "name": "HTML5",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo Web",
+                "Estructura de Páginas Web",
+                "Semántica HTML",
+                "Accesibilidad Web",
+                "SEO Básico"
+            ]
+        },
+        {
+            "name": "CSS3",
+            "level": "Intermedio",
+            "keywords": [
+                "Estilos Web",
+                "Diseño Responsivo",
+                "Flexbox",
+                "Grid Layout",
+                "Animaciones CSS"
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "level": "Intermedio",
+            "keywords": [
+                "Desarrollo Web",
+                "Responsive Design",
+                "Web Components",
+                "JSON",
+                "AJAX",
+                "Object-Oriented Programming (OOP)"
+            ]
+        },
+        {
+            "name":"PHP",
+            "level":"Intermedio",
+            "keywords":[
+                "Desarrollo Web",
+                "Programación del Lado del Servidor",
+                "Manejo de Bases de Datos",
+                "Integración con HTML y CSS",
+                "Frameworks como Laravel"
+            ]
+        },
+        {
+            "name": "MySQL",
+            "level": "Intermedio",
+            "keywords": [
+                "Bases de Datos",
+                "Sintaxis SQL",
+                "Almacenamiento de Datos",
+                "Consultas SQL",
+                "Gestión de Bases de Datos"
+            ]
+        },
+        {
+            "name": "GitHub",
+            "level": "Intermedio",
+            "keywords": [
+                "Control de Versiones",
+                "Colaboración",
+                "Código Fuente",
+                "Repositorio Remoto",
+                "Gestión de Proyectos"
+            ]
+        },
+        {
+            "name":"Python",
+            "level":"Intermedio",
+            "keywords":[
+                "Análisis de Datos",
+                "Programación Orientada a Objetos (OOP)",
+                "Automatización de Tareas",
+                "Manejo de Archivos",
+                "Bibliotecas como Pandas y NumPy"
+            ]
+        },
+        {
+            "name":"Power BI",
+            "level":"Intermedio",
+            "keywords":[
+                "Visualización de Datos",
+                "Creación de Informes",
+                "Análisis de Datos",
+                "Conexión a Fuentes de Datos",
+                "Modelado de Datos"
+            ]
+        },
+        {
+            "name":"Excel",
+            "level":"Avanzado",
+            "keywords":[
+                "Hojas de Cálculo",
+                "Fórmulas y Funciones",
+                "Análisis de Datos",
+                "Gráficos y Tablas Dinámicas",
+                "Automatización con Macros"
+            ]
+        },
+        {
+            "name":"Word",
+            "level":"Avanzado",
+            "keywords":[
+                "Procesador de Texto",
+                "Formato de Documentos",
+                "Creación de Informes",
+                "Tablas y Gráficos",
+                "Plantillas"
+            ]
+        },
+        {
+            "name":"Power Point",
+            "level":"Avanzado",
+            "keywords":[
+                "Presentaciones",
+                "Diseño de Diapositivas",
+                "Animaciones y Transiciones",
+                "Gráficos y Tablas",
+                "Colaboración en Línea"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Advanced"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "mars.codes",
+            "isActive": true,
+            "description": "Historia interactiva con retos de programación para viajar a Marte",
+            "highlights": [
+                "Elige tu propia aventura",
+                "En desarrollo"
+            ],
+            "url": "https://mars.codes"
+        },
+        {
+            "name": "AdventJS",
+            "isActive": true,
+            "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+            "highlights": [
+                "+1 millón de visitas",
+                "Multidioma",
+                "JavaScript & TypeScript"
+            ],
+            "url": "https://adventjs.dev"
+        },
+        {
+            "name": "Codember",
+            "isActive": true,
+            "description": "Juego interactivo de programación con retos y secretos",
+            "highlights": [
+                "+2000 usuarios activos",
+                "Retos para cualquier lenguaje"
+            ],
+            "url": "https://codember.dev"
+        },
+        {
+            "name": "codi.link",
+            "isActive": true,
+            "description": "Playground de código HTML, CSS y JavaScript para compartir",
+            "highlights": [
+                "100k visitas al mes",
+                "Desarrollado por la comunidad"
+            ],
+            "url": "https://codi.link",
+            "github": "https://github.com/midudev/codi.link"
+        },
+        {
+            "name": "Pruebas Técnicas",
+            "isActive": true,
+            "description": "Lista de pruebas técnicas de empresas para practicar programación",
+            "highlights": [
+                "100% gratuito",
+                "+500 soluciones de la comunidad"
+            ],
+            "url": "https://pruebastecnicas.com",
+            "github": "https://github.com/midudev/pruebas-tecnicas"
+        },
+        {
+            "name": "miduConf",
+            "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+            "highlights": [
+                "+15k tickets repartidos",
+                "+50k espectadores en directo"
+            ],
+            "url": "https://miduconf.com"
+        }
+    ]
+}
