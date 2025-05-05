@@ -4,6 +4,11 @@ https://jsonresume.org/schema
 
 Basado en el estructura y diseño de:
 https://github.com/BartoszJarocki/cv
+
+Video tutorial de referencia:
+https://www.youtube.com/watch?v=Zwh92LTB-Bk&t=1847s
+
+Muchas gracias midulive 👍🏼
 -->
 
 # Astro Starter Kit: Basics

@@ -2,20 +2,22 @@
 import Section from '@/components/Section.astro'
 import {skills} from '@cv'
 ---
-<Section title = 'Skills'>
-    <ul>
-        {
-            skills.map(({ name, level, keywords }) => (
-                    <li>
-                        <span>
-                            { name }
-                        </span>
-                    </li>
+<div class="container">
+    <Section title = 'Skills'>
+        <ul>
+            {
+                skills.map(({ name, level, keywords }) => (
+                        <li>
+                            <span>
+                                { name }
+                            </span>
+                        </li>
+                    )
                 )
-            )
-        }
-    </ul>
-</Section>
+            }
+        </ul>
+    </Section>
+</div>
 <style>
     ul{
         display: inline-flex;
@@ -30,4 +32,18 @@ import {skills} from '@cv'
         font-weight: 400;
         padding: 0.2em 0.5em;
     }
+    .container{
+        page-break-inside: avoid;
+        display: block;
+        display: flex;
+        flex-direction: column;
+    }
+    @media print {
+        .container {
+            page-break-inside: avoid;
+            display: block;
+            margin-bottom: -50px;
+        }
+
+    }  
 </style>

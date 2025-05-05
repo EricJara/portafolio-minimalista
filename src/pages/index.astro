@@ -7,12 +7,15 @@ import Hero from '@/components/sections/Hero.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
 import AdditFor from '@/components/sections/additional.astro';
+import Habilidades from '@/components/sections/Habilidades.astro'
 import KeyboardManeger from '@/components/KeyboardManeger.astro';
+import { basics } from '@cv'
+const { name, label } = basics;
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
-<Layout title='Mi Portafolio'>
+<Layout title=`Portafolio de ${name} - ${label}`>
 	<main>
 		<Hero />
 		<About />
@@ -20,9 +23,8 @@ import KeyboardManeger from '@/components/KeyboardManeger.astro';
 		<Projects />
 		<Education />
 		<AdditFor />
-		<Skills />
-		
-		
+		<!-- <Skills /> -->
+		<Habilidades />
 	</main>
 	<KeyboardManeger />
 </Layout>

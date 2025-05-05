@@ -3,8 +3,20 @@ import Section from '@/components/Section.astro'
 import { basics } from '@cv'
 const {summary } = basics
 ---
-<Section title = 'Sobre mí'>
-    <footer>
-        <p>{summary}</p>
-    </footer>
-</Section>
+<div class="container">
+    <Section title = 'Sobre mí'>
+        <footer>
+            <p>{summary}</p>
+        </footer>
+    </Section>
+</div>
+<style>
+    @media (width <= 700px){
+        .container{
+            flex-direction: column-reverse;
+            margin-top: -30px;
+            margin-bottom: -20px;
+        }
+    }
+</style>
+

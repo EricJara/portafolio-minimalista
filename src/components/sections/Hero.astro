@@ -33,7 +33,7 @@ const printInfo = [ email, phone, linkedUrl ].filter(Boolean).join(" || ")
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span class="not-print">
-                <a class="ubi" href="https://www.google.com/maps/place/Lima/">
+                <a class="ubi" href="https://www.google.com/maps/place/Lima/" target="_blank">
                     <WorldMap /> {city}, {region}, {countryCode}
                 </a>
             </span>
@@ -133,5 +133,27 @@ const printInfo = [ email, phone, linkedUrl ].filter(Boolean).join(" || ")
     .ubi {
         text-decoration: underline;
         color: black;
+    }
+    @media (width <= 700px){
+        .container{
+            flex-direction: column-reverse;
+            margin-top: -30px;
+            margin-bottom: -20px;
+        }
+        .info{
+            justify-content: center;
+            align-items: center;
+            padding-right: 0;
+            text-align: center;
+        }
+        figure{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        h2{
+            text-wrap: balance;
+        }
     }
 </style>

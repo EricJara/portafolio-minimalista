@@ -12,12 +12,12 @@ import { projects } from '@cv'
                         <article>
                             <header class="not-print">
                                 <h3>
-                                    <a href={url} target="_blank" ={`Ver el prooyecto ${name}.`}>
+                                    <a title={`Ver el prooyecto ${name}.`}>
                                         {name}
                                     </a>
                                     {isActive && <span>&bull;</span>}
                                     {github && (
-                                        <a class="github-code-link" target="_blank" title={`Ver código fuente del proyecto ${name}.`}>
+                                        <a class="github-code-link" href={github} target="_blank" title={`Ver código fuente del proyecto ${name}.`}>
                                             <GitHub />
                                         </a>
                                     )}
@@ -26,7 +26,7 @@ import { projects } from '@cv'
                             </header>
                             <header class="print">
                                 <h3>
-                                    <a href={url} target="_blank" ={`Ver el prooyecto ${name}.`}>
+                                    <a href={url} target="_blank" title={`Ver el prooyecto ${name}.`}>
                                         {name}
                                     </a>
                                 </h3>
@@ -55,7 +55,7 @@ import { projects } from '@cv'
     }
     article{
         border-radius: 8px;
-        border: 1px solid #f2f2f2;
+        border: 1px solid #c4c4c4;
         gap: 16px;
         display: flex;
         flex-direction: column;
@@ -69,7 +69,7 @@ import { projects } from '@cv'
         margin-bottom: 4px;
     }
     article a{
-        /*color: #111;*/
+        color: #111;
     }
     article a:hover{
         text-decoration: underline;
@@ -108,19 +108,30 @@ import { projects } from '@cv'
         50% { opacity: 0.5; }
         100% { opacity: 1; }
     }
-    @media (width <= 700px){
+    @media (width <= 800px){
         ul{
             margin-inline: 0px;
         }
         article{
             border: none;
-            box-shadow: 0 1px 1px #f2f2f2;
+            border: 1px solid #c4c4c4;
             padding: 0 0 16px 0;
+            gap: 16px;
+            display: flex;
+            flex-direction: column;
+            padding: 6px;
+            height: 100%;
         }
     }
     @media print {
         article h3 span{
             animation-name: none;
         }
+        ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1rem;
+        /*margin-inline: -16px;*/
+    }
     }
 </style>

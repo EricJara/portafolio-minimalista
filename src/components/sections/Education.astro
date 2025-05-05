@@ -2,49 +2,51 @@
 import Section from '@/components/Section.astro'
 import { education } from '@cv'
 ---
-<Section title='Educación'>
-    <ul>
-        {
-            education.map(
-                ({ institution, url, area, studyType, startDate, endDate, score, courses }) => {
-                    const startYear = new Date(startDate).getFullYear()
-                    const endYear = endDate != null ? new Date(endDate).getFullYear() : 'Actualidad'
-                    const years = `${startYear} - ${endYear}`
-                    return (
-                        <li>
-                            <article>
-                                <header>
-                                    <div>
-                                        <h3>{institution}</h3>
-                                        <h4></h4>
-                                    </div>
-                                    <time> {years} </time>
-                                    
-                                </header>
-                                <footer>
-                                    <p>{studyType} en {area}.</p>
-                                </footer>
-                            </article>                            
-                        </li>
-                    )
-                }
-            )
-        }
-    </ul>
-</Section>
+<div class="container">
+    <Section title='Educación'>
+        <ul>
+            {
+                education.map(
+                    ({ institution, url, area, studyType, startDate, endDate, score, courses }) => {
+                        const startYear = new Date(startDate).getFullYear()
+                        const endYear = endDate != null ? new Date(endDate).getFullYear() : 'Actualidad'
+                        const years = `${startYear} - ${endYear}`
+                        return (
+                            <li>
+                                <article>
+                                    <header>
+                                        <div>
+                                            <h3>{institution}</h3>
+                                        </div>
+                                        <time> {years} </time>
+                                    </header>
+                                    <footer>
+                                        <p>{studyType} en {area}.</p>
+                                    </footer>
+                                </article>                            
+                            </li>
+                        )
+                    }
+                )
+            }
+        </ul>
+    </Section>
+</div>
 <style>
     ul{
         display: flex;
         flex-direction: column;
-        gap: 32px;
+        gap: 22px; /* Espacio entre puntos de educacion */
+    }
+    li{
+        margin-bottom: -10px;
+    }
+    div{
+        margin-bottom: -5px;
     }
     article h3{
         font-weight: 600;
         color: #111;
-    }
-    article h4{
-        color: #222;
-        font-weight: 600;
     }
     header{
         display: flex;
@@ -55,5 +57,12 @@ import { education } from '@cv'
     time{
         color: #555;
         font-size: 0.85rem;
+        min-width: 102px;
+    }
+    @media (width <= 700px){
+        time{
+            text-align: right;
+        }
+
     }
 </style>

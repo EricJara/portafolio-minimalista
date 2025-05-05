@@ -3,50 +3,52 @@ import { addit } from "@cv"
 import Section from "@/components/Section.astro"
 import Enlace from '@/icons/link.astro'
 ---
-<Section title = "Formación profesional">
-    <ul>
-        {
-            addit.map(({name, institution, url, ExpedDate, IdCredencial, keywords, autor}) =>{
-                const fecha = new Date(ExpedDate).toLocaleDateString('es-ES', {day: 'numeric', month: 'long', year: 'numeric'});
-                return(
-                    <li>
-                        <article>
-                            <header class="not-print">
-                                <h3>{name}</h3>
-                                <h4>
-                                    {institution}
-                                    {url && (
-                                        <a class="enlace-credencial" href={url} target="_blank">
-                                            <Enlace />
-                                        </a>
-                                    )}
-                                </h4>
-                                <p>Expedición: {fecha}.</p>
-                                <p>ID de la credencial: {IdCredencial}.</p>
-                                
-                            </header>
-                            <header class="print">
-                                <h3>{name}</h3>
-                                <h4>{institution}</h4>
-                                <p>Expedición: {fecha}.</p>
-                                <p>ID de la credencial: {IdCredencial}.</p>
-                            </header>
-                            <footer>
-                                <p>Palabras clave: 
-                                {
-                                    keywords.map((keywords) =>{
-                                        return <span class="palabras">{keywords}</span>
-                                    })
-                                }
-                                </p>
-                            </footer>
-                        </article>
-                    </li>
-                )
-            })
-        }
-    </ul>
-</Section>
+<div class="container">
+    <Section title = "Formación profesional">
+        <ul>
+            {
+                addit.map(({name, institution, url, ExpedDate, IdCredencial, keywords, autor}) =>{
+                    const fecha = new Date(ExpedDate).toLocaleDateString('es-ES', {day: 'numeric', month: 'long', year: 'numeric'});
+                    return(
+                        <li>
+                            <article>
+                                <header class="not-print">
+                                    <h3>{name}</h3>
+                                    <h4>
+                                        {institution}
+                                        {url && (
+                                            <a class="enlace-credencial" href={url} target="_blank">
+                                                <Enlace />
+                                            </a>
+                                        )}
+                                    </h4>
+                                    <p>Expedición: {fecha}.</p>
+                                    <p>ID de la credencial: {IdCredencial}.</p>
+                                    
+                                </header>
+                                <header class="print">
+                                    <h3>{name}</h3>
+                                    <h4>{institution}</h4>
+                                    <p>Expedición: {fecha}.</p>
+                                    <p>ID de la credencial: {IdCredencial}.</p>
+                                </header>
+                                <footer>
+                                    <p>Palabras clave: 
+                                    {
+                                        keywords.map((keywords) =>{
+                                            return <span class="palabras">{keywords}</span>
+                                        })
+                                    }
+                                    </p>
+                                </footer>
+                            </article>
+                        </li>
+                    )
+                })
+            }
+        </ul>
+    </Section>
+</div>
 <style>
     ul {
         list-style-type: disc;
@@ -89,4 +91,15 @@ import Enlace from '@/icons/link.astro'
         padding: 0.2em 0.5em;
         margin: 0px 9px 5px 0px;
     }
+    @media print {
+        article {
+            page-break-inside: avoid;
+            display: block;
+            margin-bottom: -10px;
+        }
+        li {
+        font-size: 16px;
+        margin-bottom: 12px; /* Espacio entre puntos del certificado */
+    }
+    } 
 </style>

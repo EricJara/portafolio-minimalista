@@ -14,6 +14,23 @@
             "countryCode": "PE",
             "region": "Perú"
         },
+        "referencia":[
+            {
+                "network": "LinkedIn",
+                "username": "Eric Jara",
+                "url": "https://linkedin.com/in/eric-josé-jara-palacios-40b005b3"
+            },
+            {
+                "network": "GitHub",
+                "username": "Eric Jara",
+                "url": "https://github.com/EricJara?tab=repositories"
+            },
+            {
+                "network": "Facebook",
+                "username": "Eric Jara",
+                "url": "https://facebook.com/ericjose.jarapalacios"
+            }
+        ],
         "profiles": [
             {
                 "network": "Correo",
@@ -47,12 +64,17 @@
             }
         ]
     },
+    
+
+
+
+
     "work": [
         {
             "name": "Software y Sistemas del Perú S.A.C.",
             "position": "Soporte Técnico de Melissa y Clarissa",
             "url": "https://sysdelperu.com/",
-            "startDate": "2019-01-01",
+            "startDate": "2018-01-01",
             "endDate": null,
             "summary": "Analista de los programas Melissa y Clarissa, donde realizó asesoramiento, demostración, capacitación, configuración y procedimiento para la solución de errores del software, además, brindó apoyo a los clientes a resolver sus casos mediante el armado y diseño de sus reportes de gastos e ingresos. Ofreció un servicio ágil y de calidad para optimizar los procesos.",
             "highlights": [
@@ -65,7 +87,7 @@
             "url": "https://www.ctk.pe/",
             "startDate": "2024-11-17",
             "endDate": "2024-12-01",
-            "summary": "Desarrollé funciones como operador informático de contingencia en el proyecto de evaluación para postulantes al programa Beca 18, encargado de asegurar el correcto funcionamiento de los equipos informáticos durante todo el proceso. Supervisé la operatividad de los sistemas, gestioné el control de asistencia del personal operativo, administrativo y de mi equipo, y validé la identidad de los postulantes, asignándoles los espacios correspondientes para sus evaluaciones. Coordiné la elaboración del inventario de los instrumentos de evaluación utilizados y aseguré la correcta carga de los datos en el sistema informático. Adicionalmente, apoyé en la gestión de las actividades del personal y en la coordinación para asegurar el cumplimiento efectivo de todas las etapas del proyecto.",
+            "summary": "Participé como operador informático de contingencia en el proyecto de evaluación de postulantes para Beca 18, asegurando el correcto funcionamiento de los equipos y sistemas. Supervisé la operatividad tecnológica, gestioné la asistencia del personal y validé la identidad de los postulantes, asignando espacios para sus evaluaciones. Coordiné el inventario de instrumentos de evaluación y la carga de datos en el sistema. Además, colaboré en la gestión del personal y en la coordinación de actividades para el cumplimiento del proyecto.",
             "highlights": [
                 "Started the company"
             ]
@@ -76,7 +98,7 @@
             "url": "https://www.gob.pe/inei",
             "startDate": "2019-05-31",
             "endDate": "2019-07-21",
-            "summary": "Participé como operador informático de contingencia en el proyecto de evaluación de docentes para el Nombramiento en la Escala Magisterial. Entre mis funciones, verifiqué el correcto funcionamiento de los equipos informáticos, controlé la asistencia del personal operativo y administrativo, y validé la identidad de los participantes, asignándoles sus respectivos ambientes de evaluación. Asimismo, elaboré el inventario de los instrumentos de evaluación utilizados y di conformidad a la carga de datos en el sistema informático.",
+            "summary": "Desarrollé funciones como operador informático de contingencia en el proyecto de evaluación de docentes para el Nombramiento en la Escala Magisterial. Entre mis funciones, verifiqué el correcto funcionamiento de los equipos informáticos, controlé la asistencia del personal operativo y administrativo, y validé la identidad de los participantes, asignándoles sus respectivos ambientes de evaluación. Asimismo, elaboré el inventario de los instrumentos de evaluación utilizados y di conformidad a la carga de datos en el sistema informático.",
             "highlights": [
                 "Started the company"
             ]
@@ -95,6 +117,7 @@
         {
             "name": "Instituto Nacional de Estadística e Informática - INEI",
             "position": "Jefe de Sección Urbano (San Juan Bautista) - Censo 2017",
+            "url": "https://www.gob.pe/inei",
             "startDate": "2017-08-21",
             "endDate": "2017-10-22",
             "summary": "Ejercí el cargo de Jefe de Sección Urbano durante el Censo 2017 del INEI, en el cual asumí la responsabilidad de supervisar la ejecución del proceso censal en las zonas urbanas. Mi labor consistió en coordinar y dirigir al personal censal, asegurando que las entrevistas se realizaran conforme a los pasos establecidos. Supervisé las actividades logísticas del censo, y resolví situaciones imprevistas que surgieron durante el proceso de recolección. Finalmente, fui responsable de reportar asiduamente la ejecución de las actividades a las autoridades, asegurando que se concluyan en los plazos establecidos.",
@@ -105,9 +128,10 @@
         {
             "name": "Instituto Nacional de Estadística e Informática - INEI",
             "position": "Operador Informático - Proyecto EDNOM",
+            "url": "https://www.gob.pe/inei",
             "startDate": "2017-07-18",
             "endDate": "2017-09-24",
-            "summary": "Ocupé el cargo de operador informático en el proyecto de evaluación de docentes para el Nombramiento en la Escala Magisterial. Mi labor consistió en asegurar el correcto funcionamiento de los equipos informáticos, gestionar el registro de asistencia del personal operativo y administrativo, y validar la identidad de los participantes, asignándoles los espacios correspondientes para su evaluación. Asimismo, me encargué de realizar el inventario de los instrumentos de evaluación utilizados y garantizar la correcta carga y procesamiento de los datos en el sistema informático, velando por la precisión y fiabilidad de la información.",
+            "summary": "Ocupé el cargo de operador informático en el proyecto de evaluación de docentes para el Nombramiento en la Escala Magisterial. Mi labor consistió en asegurar el correcto funcionamiento de los equipos informáticos, gestionar el registro de asistencia del personal operativo y administrativo, y validar la identidad de los participantes, asignándoles los espacios correspondientes para su evaluación. Asimismo, me encargué de realizar el inventario de los instrumentos de evaluación utilizados y garantizar la correcta carga y procesamiento de los datos en el sistema informático.",
             "highlights": [
                 "Started the company"
             ]
@@ -143,7 +167,7 @@
             "institution": "Universidad Nacional de Ingeniería",
             "url": "https://portal.uni.edu.pe/",
             "area": "Ciencias en Ingeniería de Sistemas de Información",
-            "studyType": "Egresado en la Maestría",
+            "studyType": "Egresado de la Maestría",
             "startDate": "2022-09-13",
             "endDate": "2024-07-31",
             "score": "4.0",
@@ -535,66 +559,40 @@
     ],
     "projects": [
         {
-            "name": "mars.codes",
+            "name": "CV Minimalista",
             "isActive": true,
-            "description": "Historia interactiva con retos de programación para viajar a Marte",
+            "description": "Cv de código abierto, para legibilidad y eficiencia, con funciones optimizadas en JavaScript para mejor rendimiento.",
             "highlights": [
-                "Elige tu propia aventura",
-                "En desarrollo"
+                "npm",
+                "Node.js",
+                "Astro"
             ],
-            "url": "https://mars.codes"
+            "url": "softsistema.com/ericjarap/portafolio/",
+            "github": "https://github.com/EricJara/portafolio-minimalista"
         },
         {
-            "name": "AdventJS",
+            "name": "Algoritmos para Python",
             "isActive": true,
-            "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+            "description": "Lista de algoritmos para resolución de casos de programación en Python.",
             "highlights": [
-                "+1 millón de visitas",
-                "Multidioma",
-                "JavaScript & TypeScript"
+                "Listas",
+                "Bucles",
+                "Lambda"
             ],
-            "url": "https://adventjs.dev"
+            "url": "",
+            "github": "https://github.com/EricJara/curso_python"
         },
         {
-            "name": "Codember",
-            "isActive": true,
-            "description": "Juego interactivo de programación con retos y secretos",
+            "name": "Mód. Inventario - SAC",
+            "isActive": false,
+            "description": "Sistema de control de inventario de los activos informáticos (PC y monitores).",
             "highlights": [
-                "+2000 usuarios activos",
-                "Retos para cualquier lenguaje"
+                "Ingreso",
+                "Salida",
+                "Reportes"
             ],
-            "url": "https://codember.dev"
-        },
-        {
-            "name": "codi.link",
-            "isActive": true,
-            "description": "Playground de código HTML, CSS y JavaScript para compartir",
-            "highlights": [
-                "100k visitas al mes",
-                "Desarrollado por la comunidad"
-            ],
-            "url": "https://codi.link",
-            "github": "https://github.com/midudev/codi.link"
-        },
-        {
-            "name": "Pruebas Técnicas",
-            "isActive": true,
-            "description": "Lista de pruebas técnicas de empresas para practicar programación",
-            "highlights": [
-                "100% gratuito",
-                "+500 soluciones de la comunidad"
-            ],
-            "url": "https://pruebastecnicas.com",
-            "github": "https://github.com/midudev/pruebas-tecnicas"
-        },
-        {
-            "name": "miduConf",
-            "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-            "highlights": [
-                "+15k tickets repartidos",
-                "+50k espectadores en directo"
-            ],
-            "url": "https://miduconf.com"
+            "url": "",
+            "github": ""
         }
     ]
 }
