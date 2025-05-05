@@ -8,6 +8,9 @@ https://github.com/BartoszJarocki/cv
 Video tutorial de referencia:
 https://www.youtube.com/watch?v=Zwh92LTB-Bk&t=1847s
 
+Para sacar el build (para subir el proyecto final a la internet)
+te vas a la linea de comandos y escribes: npm run build
+
 Muchas gracias midulive 👍🏼
 -->
 
